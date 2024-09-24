@@ -15,5 +15,5 @@ export class Parent1Component {
   }
 
   childStrDataReceived:string='';
-  childData:string='';
+  childData:any='';
 }

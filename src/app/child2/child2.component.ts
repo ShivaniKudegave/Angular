@@ -25,7 +25,7 @@ export class Child2Component {
     lname:'Kudegawe'
   }
   onClick(){
-    this.childJson.emit(this.json)
+    this.childEvent.emit(this.json)
   }
   
 
