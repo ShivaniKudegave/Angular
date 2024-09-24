@@ -1,0 +1,16 @@
+<p>if-directive works!</p>
+
+<!-- syntax
+ 
+*ngIf = "Condition"
+
+you can apply any HTML taG-->
+
+<div *ngIf = "rating<4; else myelsepart">
+    <h2>Condition is True</h2>
+
+</div>
+
+<ng-template #myelsepart>
+    <h2>Condition is False</h2>
+</ng-template>

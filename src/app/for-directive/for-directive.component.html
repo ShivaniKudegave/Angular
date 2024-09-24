@@ -1,0 +1,32 @@
+<p>for-directive works!</p>
+
+<!-- Syntax
+ 
+    *ngFor = "let item of ArrayName"
+-->
+
+<ul>
+    <li *ngFor="let item of course">
+        {{item}}
+    </li>
+</ul>
+<div class="container">
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sr.no</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of arrProduct;index as i">
+            <td>{{i+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.qty}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

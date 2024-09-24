@@ -1,0 +1,17 @@
+h2{
+    color: red;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid green;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid green;
+}
+

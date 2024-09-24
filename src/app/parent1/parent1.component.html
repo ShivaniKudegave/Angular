@@ -1,0 +1,13 @@
+<p>parent1 works!</p>
+
+<hr>
+
+<h2>{{childStrDataReceived}}</h2>
+
+<h2>{{childData}}</h2>
+
+<!-- <app-child1 [ParentStringMsg]="msg"
+[ParentJsonObj]="json"></app-child1> -->
+
+<app-child2 (childStrEvent)="childStrDataReceived=$event"
+(childEvent)="childData=$event"></app-child2>

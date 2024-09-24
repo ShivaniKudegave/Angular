@@ -1,0 +1,8 @@
+<p>event-binding3 works!</p>
+
+<!-- Change Event -->
+
+<input #myinput type="text" (change) = "onChange(myinput.value)" placeholder="Enter the Name">
+<div [style.color] = "dispResult!= '' ? 'blue':'black'">
+    {{dispResult}}
+</div>
