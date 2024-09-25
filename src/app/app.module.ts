@@ -14,6 +14,7 @@ import { SwitchDirectiveComponent } from './switch-directive/switch-directive.co
 import { Parent1Component } from './parent1/parent1.component';
 import { Child1Component } from './child1/child1.component';
 import { Child2Component } from './child2/child2.component';
+import { InbuiltPipeComponent } from './inbuilt-pipe/inbuilt-pipe.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { Child2Component } from './child2/child2.component';
     SwitchDirectiveComponent,
     Parent1Component,
     Child1Component,
-    Child2Component
+    Child2Component,
+    InbuiltPipeComponent
   ],
   imports: [
     BrowserModule,

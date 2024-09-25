@@ -9,7 +9,9 @@
 <!-- <app-child1 [ParentStringMsg]="msg"
 [ParentJsonObj]="json"></app-child1> -->
 
-<h2>{{childData|json}}</h2>
+<h2>{{childData.id}}</h2>
+<h2>{{childData.fname}}</h2>
+<h2>{{childData.lname}}</h2>
 
 <app-child2 (childStrEvent)="childStrDataReceived=$event"
 (childEvent)="childData=$event"></app-child2>
