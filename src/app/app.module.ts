@@ -17,6 +17,8 @@ import { Child2Component } from './child2/child2.component';
 import { InbuiltPipeComponent } from './inbuilt-pipe/inbuilt-pipe.component';
 import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
 import { SummaryPipePipe } from './summary-pipe.pipe';
+import { PostComponent } from './post/post.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,11 +36,13 @@ import { SummaryPipePipe } from './summary-pipe.pipe';
     Child2Component,
     InbuiltPipeComponent,
     CustomPipeComponent,
-    SummaryPipePipe
+    SummaryPipePipe,
+    PostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
